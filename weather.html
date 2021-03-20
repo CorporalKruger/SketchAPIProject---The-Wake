@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>The Wake</title>
+    <link rel="shortcut icon" href="img/thewake.jpeg" />
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader"></div>
+   <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <!-- Logo -->
+        <div class="logo-wrapper valign">
+            <div class="logo">
+                <a href="index.html"> 
+                    <img src="img/thewake.jpg" class="logo-img" alt="">
+                    <h2>THE<span>WAKE</span></h2>
+                </a>
+            </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-bar"><i class="ti-line-double"></i></span> </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="weather.html">Weather</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="covid19.html">Covid-19</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="inspire.html">Inspiration</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Slider -->
+    <header class="header slider-fade">
+        <div class="owl-carousel owl-theme">
+            <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+           
+            <div class="text-right item bg-img" data-overlay-dark="4" data-background="img/weatherfrontpage.jpg">
+                <div class="v-middle caption mt-30">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 offset-md-5">
+                                <div class="o-hidden">
+                                    <h1>Weather</h1>
+                                    <p>Search your local area or around the world for todays weather.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+                      <!-- Search for weather info..  -->       
+<body>
+  <div class="app-wrap">
+    <header>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for the temperature in any city..." />
+    </header>
+    <main>
+      <section class="location">
+        <div class="city">SEARCH FOR WEATHER</div>
+          <br>
+        <div class="date"></div>
+            <br>
+                </section>
+      <div class="current">
+                  <div class="temp"><span>°c</span></div>
+            <br>
+        <div class="weather"></div>
+            <br>
+        <div class="hi-low"></div>
+      </div>
+    </main>
+  </div>
+  <script src="js/weathermain.js"></script>
+</body>        
+        <!-- Footer -->
+        <footer class="main-footer dark">
+                  
+            <div class="sub-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-left">
+                                <p> The WAKE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+  
+    <!-- jQuery -->
+        <script src="js/jquery-3.5.1.min.js"></script>
+    
+     <script src="js/modernizr-2.6.2.min.js"></script>
+    
+     <!--   PACE - Page load progress bar in a website using ajax -->
+    <script src="js/pace.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+          <!-- Top Slider / scroller effect -->
+    <script src="js/scrollIt.min.js"></script>
+        <!-- Carousel on Pages -->
+    <script src="js/owl.carousel.min.js"></script>
+           <!-- Mixture of JS requirements added here! -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
