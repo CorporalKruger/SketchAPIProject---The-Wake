@@ -136,7 +136,6 @@ b {
     opacity: 0;
 }
 
-
 /* ======= Selection style ======= */
 ::-webkit-selection {
     color: #999;
@@ -355,6 +354,8 @@ b {
     width: 100px;
     margin-bottom: 5px;
 }
+
+
 .dropdown:hover .dropdown-menu,
 .dropdown:hover .mega-menu {
     opacity: 1;

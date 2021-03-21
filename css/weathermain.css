@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 .app-wrap {
   display: flex;
   flex-direction: column;
